@@ -21,7 +21,7 @@ function createWallet(customerName, customerPassword) {
   customerPassword = this.customerPassword.value;
 
   if ((this.customerName.value < 3) || (this.customerPassword.value < 3)) {
-    alert("Something Wrong? Your Name or PIN less than 3 character.")
+    alert("Something Wrong?! Your Name or PIN less than 3 character.")
   } 
   else { 
   form.style.display = "none";
